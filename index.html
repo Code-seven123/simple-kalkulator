@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>KALKULATOR</h1>
+        <p>masukan angka ke kolom dan pilih operator matematika<b>(+ , - , × , ÷)</b> di kolom pilihan</p>
+        <form>
+           <div class="content">
+               <div class="row">
+               <input type="number" id="x">
+           </div>
+           <div class="row">
+               <select id="y">
+                   <b>
+                       <option class="option">+</option>
+                       <option class="option">-</option>
+                       <option class="option">×</option>
+                       <option class="option">÷</option>
+                   </b>
+               </select>
+           </div>
+           <div class="row">
+               <input type="number" id="z">
+           </div>
+           </div>
+           
+               <button type="reset" class="subm">Submit</button>
+        </form>
+        <section id="alertBox" class="dNone">
+            <div id="alert">
+                <p id="result"></p>
+                <button type="submit" id="close"><img src="img/img.png"></button>
+            </div>
+        </section>
+    </div>
+    
+<script src="js/script.js"></script> 
+</body>
+</html>
+    
